@@ -1,210 +1,211 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-size: cover;
-    background-image: linear-gradient(to bottom right, purple, blue);
+  background-size: cover;
+  background-image: url(/images/backround.jpg);
 }
 
 p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .text {
-    width: 100%;
-    height: 100px;
-    text-align: center;
+  width: 100%;
+  height: 100px;
+  text-align: center;
 }
 
 .leon {
-    color: rgb(153, 147, 147);
+  color: rgb(153, 147, 147);
 }
 
 .downloadcv {
-    width: 300px;
-    height: 100px;
-    background-color: rgb(31, 30, 30);
-    text-align: center;
-    border-radius: 20px;
-    padding: 10px;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(31, 30, 30);
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .learnmore {
-    width: 300px;
-    height: 100px;
-    background-color: rgb(31, 30, 30);
-    text-align: center;
-    border-radius: 20px;
-    padding: 10px;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(31, 30, 30);
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .header {
-    background-color: rgba(48, 45, 45, 0.473);
-    width: 100%;
-    height: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    transition: 1s;
-    border: black solid 2px;
-    position: absolute;
-    position: fixed;
-    padding: 15px;
-    z-index: 1000;
+  background-color: rgba(48, 45, 45, 0.473);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  transition: 1s;
+  border: black solid 2px;
+  position: absolute;
+  position: fixed;
+  padding: 15px;
+  z-index: 1000;
 }
 
 .header:hover {
-    height: 175px;
-    transition: 1s;
+  height: 175px;
+  transition: 1s;
 }
 
+h2 {
+  text-decoration: none;
+  color: black;
+}
 
 .page {
-    text-decoration: none;
-    color: black;
-    transition: 55ms;
+  text-decoration: none;
+  color: black;
+  transition: 55ms;
 }
 
 .page1 {
-    text-decoration: none;
-    color: black;
-    transition: 55ms;
+  text-decoration: none;
+  color: black;
+  transition: 55ms;
 }
 
 .page:hover {
-    color: white;
-    font-size: 20px;
-    transition: 55ms;
+  color: white;
+  font-size: 20px;
+  transition: 55ms;
 }
 
 .arrow {
-    width: auto;
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container {
-    width: auto;
-    height: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .footer {
-    width: auto;
-    height: 80px;
-    background-color: rgba(75, 71, 71, 0.726);
-    color: black;
-    justify-content: space-evenly;
-    display: flex;
-    font-size: 20px;
-    flex-wrap: wrap;
-    border-top: black solid 2px;
-    font-family: "Kanit", sans-serif;
-    font-family: "Macondo", cursive;
+  width: auto;
+  height: 80px;
+  background-color: rgba(75, 71, 71, 0.726);
+  color: black;
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+  border-top: black solid 2px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Macondo", cursive;
 }
 
 .footerimg {
-    width: 30px;
-    height: 30px;
-    margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
 }
 
 .footerinfo {
-    width: 300px;
-    height: 70px;
-    text-align: center;
+  width: 300px;
+  height: 70px;
+  text-align: center;
 }
 
 .cont {
-    width: 50%;
-    height: 700px;
-    background-color: rgba(49, 48, 48, 0.89);
-    margin-top: 100px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px black;
-    flex-wrap: wrap;
-    font-family: 'Koulen', cursive;
-    font-family: 'Roboto Slab', serif;
+  width: 50%;
+  height: 700px;
+  background-color: rgba(49, 48, 48, 0.89);
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px 5px black;
+  flex-wrap: wrap;
+  font-family: "Koulen", cursive;
+  font-family: "Roboto Slab", serif;
 }
 
 .pfp {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    margin-top: 15px;
-    border: 5px solid black;
+  width: 50%;
+  height: 400px;
+  /* border-radius: 50%; */
+  margin-top: 15px;
+  /* border: 5px solid black; */
 }
 
-
 @media only screen and (max-width: 400px) {
-    .header {
-        height: 100px;
-        font-size: 10px;
-    }
+  .header {
+    height: 100px;
+    font-size: 10px;
+  }
 
-    .page1 {
-        display: none;
-    }
+  .page1 {
+    display: none;
+  }
 
-    .page {
-        text-decoration: none;
-        color: black;
-        transition: 55ms;
-    }
+  .page {
+    text-decoration: none;
+    color: black;
+    transition: 55ms;
+  }
 
-    /* .page:hover {
+  /* .page:hover {
         color: white;
         font-size: 15px;
         transition: 55ms;
     } */
 
-    .cv {
-        width: 75px;
-        height: 75px;
-    }
+  .cv {
+    width: 75px;
+    height: 75px;
+  }
 
-    body {
-        background-image: fill;
-    }
+  body {
+    background-image: fill;
+  }
 
-    .footer {
-        height: 250px;
-    }
+  .footer {
+    height: 250px;
+  }
 
-    .container {
-        height: auto;
-    }
+  .container {
+    height: auto;
+  }
 
-    .cont {
-        margin-bottom: 75px;
-        width: 100%;
-        border-radius: 0;
-        height: 950px;
-    }
+  .cont {
+    margin-bottom: 75px;
+    width: 100%;
+    border-radius: 0;
+    height: 950px;
+  }
 
-    .pfp {
-        width: 100%;
-        height: 350px;
-    }
+  .pfp {
+    width: 100%;
+    height: 350px;
+  }
 
-    .text {
-        margin-bottom: 130px;
-    }
+  .text {
+    margin-bottom: 130px;
+  }
 
-    .downloadcv {
-        margin-top: 20px;
-    }
+  .downloadcv {
+    margin-top: 20px;
+  }
 }
