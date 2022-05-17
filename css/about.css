@@ -62,6 +62,7 @@ p {
 .header:hover {
     height: 175px;
     transition: 1s;
+    background-color: white;
 }
 
 
@@ -102,7 +103,7 @@ p {
 .footer {
     width: auto;
     height: 80px;
-    background-color: rgba(75, 71, 71, 0.726);
+    background-color: white;
     color: black;
     justify-content: space-evenly;
     display: flex;
