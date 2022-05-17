@@ -130,7 +130,8 @@ h2 {
   border-radius: 50%;
   transition: 1.5s;
   text-align: center;
-  font-size: 200px;
+  /* font-size: 100px; */
+  /* position: fixed; */
 }
 
 .text:hover {
@@ -153,6 +154,7 @@ p {
   color: white;
   font-family: 'Koulen', cursive;
   font-family: 'Roboto Slab', serif;
+  font-size: 20px;
 }
 
 .text1 {
@@ -273,5 +275,12 @@ p {
 
   .txt {
     margin-top: 0;
+  }
+
+  .text:hover {
+    width: 850px;
+    height: 850px;
+    padding: 75px;
+    font-size: 20px;
   }
 }
