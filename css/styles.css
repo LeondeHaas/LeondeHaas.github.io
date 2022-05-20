@@ -406,6 +406,10 @@ p {
     height: 640px;
     background-color: rgb(54, 51, 51);
   }
+
+  .hidden {
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 1700px) and (min-width: 1500px) {
