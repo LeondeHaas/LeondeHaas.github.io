@@ -99,6 +99,16 @@ h2 {
   background-color: white;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container1 {
+  width: auto;
+  height: 1000px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .leftside {
@@ -200,6 +210,91 @@ p {
   text-align: center;
 }
 
+/* .form {
+  justify-content: center;
+  justify-content: space-around;
+} */
+
+.containercontact {
+  width: 500px;
+  height: 650px;
+  background-color: rgb(54, 51, 51);
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  border-radius: 30px;
+  position: absolute;
+}
+
+/* .containercontact1 {
+  width: 200px;
+  height: 600px;
+  background-color: rgb(54, 51, 51);
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  border-radius: 30px;
+  position: absolute;
+} */
+
+.mail {
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 200px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+.textform {
+  margin-top: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.mail:hover {
+  border: solid yellow 4px;
+}
+
+.textform:hover {
+  border: solid yellow 4px;
+}
+
+.btn:hover {
+  background-color: gray;
+  transition: 1s;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+}
+
+.textform1 {
+  margin-top: 20px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Macondo", cursive;
+  text-decoration: underline;
+}
+
+.textform2 {
+  font-family: "Kanit", sans-serif;
+  font-family: "Macondo", cursive;
+  margin-top: 10px;
+}
+
+/*---------------------------------*/
+/* responsive website */
+
 @media only screen and (max-width: 400px) {
   .header {
     height: 100px;
@@ -229,6 +324,7 @@ p {
 
   body {
     background-image: fill;
+    background-color: rgb(54, 51, 51);
   }
 
   .footer {
@@ -286,6 +382,29 @@ p {
 
   .txt {
     margin-top: 0;
+  }
+
+  .textform {
+    width: 300px;
+  }
+
+  .mail {
+    width: 250px;
+  }
+  .img1 {
+    display: none;
+  }
+
+  .containercontact {
+    width: 100%;
+    border-radius: 0;
+    height: 100%;
+    padding: 20px;
+  }
+
+  .container1 {
+    height: 640px;
+    background-color: rgb(54, 51, 51);
   }
 }
 
