@@ -292,6 +292,56 @@ p {
   margin-top: 10px;
 }
 
+.circle1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(44, 42, 42);
+  position: absolute;
+  margin-right: 500px;
+  margin-top: 20px;
+}
+
+.circle2 {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: rgb(66, 64, 64);
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.circle3 {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  background-color: rgb(73, 71, 71);
+  position: absolute;
+  margin-top: 300px;
+  margin-right: 200px;
+}
+
+.circle4 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgb(104, 101, 101);
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 400px;
+}
+
+.circle5 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(104, 101, 101);
+  position: absolute;
+  margin-right: 850px;
+  margin-top: 225px;
+}
+
 /*---------------------------------*/
 /* responsive website */
 
@@ -391,6 +441,7 @@ p {
   .mail {
     width: 250px;
   }
+
   .img1 {
     display: none;
   }
@@ -409,6 +460,26 @@ p {
 
   .hidden {
     height: 100px;
+  }
+
+  .circle1 {
+    display: none;
+  }
+
+  .circle2 {
+    display: none;
+  }
+
+  .circle3 {
+    display: none;
+  }
+
+  .circle4 {
+    display: none;
+  }
+
+  .circle5 {
+    display: none;
   }
 }
 
