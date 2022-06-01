@@ -153,7 +153,7 @@ p {
 /* SKILLS */
 
 #skills {
-  background-color: rgba(49, 48, 48, 0.89);
+  background-color: rgb(62, 61, 61);
   padding: 20px 15px 75px 15px;
   color: #fff;
 }
@@ -162,9 +162,10 @@ p {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(61, 59, 59);
+  background-color: rgb(69, 66, 66);
   font-size: 20px;
   padding: 40px;
+  box-shadow: 0px 0px 15px 15px rgb(48, 46, 46);
 }
 
 .skills-title {
