@@ -48,8 +48,31 @@
 <body>
     <div class="hidden"></div>
     <div class="container1">
-      <h1>this page is in the works!</h1>
+      <form onsubmit="sendEmail(); reset(); return false;">
+          <h3>GET IN TOUCH</h3>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Email id" required>
+          <input type="text" id="phone" placeholder="Phone no." required>
+          <textarea id="message" rows="4" placeholder="How can I help you?"></textarea>
+          <button type="submit">Send</button>
+      </form>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "leonthedragonslayer123@gmail.com",
+                Password : "LeonxRoos0506",
+                To : 'LeonRdeHaas@outlook.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>
 </body>
 <footer>
     <div class="footer">
